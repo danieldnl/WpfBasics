@@ -24,5 +24,10 @@ namespace WPFBasics
         {
             InitializeComponent();
         }
+
+        private void BtnApply_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show($"O valor digitado foi: {this.txtDescription.Text}");
+        }
     }
 }
